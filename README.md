@@ -4,6 +4,11 @@
 
 <br>
 
+## Overview
+The project's objective is to improve image segmentation by utilizing image processing techniques and the Watershed algorithm with custom seed generation. The project will first use median blur to reduce noise in the image and then use contour detection to identify objects within the image. Once objects are identified, the Watershed algorithm, which is a method for image segmentation that uses markers or "seeds" to separate touching or overlapping objects, will be applied. The project will allow for custom seed generation by using the identified contours as markers for the algorithm.
+
+<br>
+
 ## Getting Started
 #### 1. Fork and clone the repository:
   ```
